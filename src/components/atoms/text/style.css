@@ -58,3 +58,10 @@
     padding-left: 12px;
 }
 
+.category-text {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: "Roboto-Medium", sans-serif;
+}
+

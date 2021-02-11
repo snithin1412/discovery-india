@@ -64,10 +64,37 @@ const headerData = {
   }
 }
 
+const categoryData = {
+  category1: {
+    image: "adventures.jpg",
+    text: "Adventures"
+  },
+  category2: {
+    image: "animals.jpg",
+    text: "Animals"
+  },
+  category3: {
+    image: "nature.jpg",
+    text: "Nature"
+  },
+  category4: {
+    image: "auto.jpg",
+    text: "Auto"
+  },
+  category5: {
+    image: "food.jpg",
+    text: "Food"
+  },
+  category6: {
+    image: "lifestyle.jpg",
+    text: "Lifestyle"
+  }
+}
+
 function App() {
   return (
     <div className="App">
-      <Template headerData={headerData} carouselData={carouselData} />
+      <Template headerData={headerData} carouselData={carouselData} categoryData={categoryData} />
     </div>
   );
 }
