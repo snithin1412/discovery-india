@@ -3,11 +3,11 @@ import InputText from '../../atoms/input-text/InputText';
 import Button from '../../atoms/buttons/Button';
 import './style.css';
 
-const Search = () => {
+const Search = ({content}) => {
     return (
         <div className="search">
-            <InputText inputStyle="search-input" placeHolder="Search for shows, episodes, shorts etc."/>
-            <Button btnName="Sign In"  type="submit" />
+            <InputText inputStyle="search-input" placeHolder={content.placeHolder}/>
+            <Button btnName={content.button}  type="submit" />
         </div>
     );
 };

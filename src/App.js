@@ -53,7 +53,7 @@ const headerData = {
   },
   nav: ["Home","Explore","Shorts", "MindBlown","Premium"],
   search: {
-  search: "Search for shows, episodes, shorts etc.",
+  placeHolder: "Search for shows, episodes, shorts etc.",
   button: "Sign In"
   }
 }
