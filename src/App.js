@@ -51,13 +51,7 @@ const headerData = {
     list: "items.jpg",
     listAlt: "List"
   },
-  nav: {
-    nav1: "Home",
-    nav2: "Explore",
-    nav3: "Shorts",
-    nav4: "MindBlown",
-    nav5: "Premium"
-  },
+  nav: ["Home","Explore","Shorts", "MindBlown","Premium"],
   search: {
   search: "Search for shows, episodes, shorts etc.",
   button: "Sign In"
